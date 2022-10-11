@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(103, 178, 243);;
+}
+.menu{
+    background-color: #03111e;;
+    text-align: right;
+}
+.menu ul
+{
+    display:inline-flex;
+    list-style: none;
+
+}
+.menu ul li
+{width:120px;
+    margin: 15px;
+    padding: 15px;
+    list-style:none;
+}
+.menu ul li a
+{
+    text-decoration: none;
+    color:white;
+    text-size-adjust:var(0.4s);
+}
+.menu ul li a:hover{color:#ff7200}
